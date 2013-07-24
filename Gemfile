@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://ruby.taobao.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
@@ -46,4 +46,9 @@ end
 group :development, :test do
   gem "rspec-rails", "~> 2.0"
   gem "capybara"
+  # https://github.com/ranmocy/guard-rails
+  gem "guard-rspec"
+  # https://github.com/sporkrb/spork-rails
+  gem "spork-rails", github: 'sporkrb/spork-rails'
+  gem "guard-spork"
 end
