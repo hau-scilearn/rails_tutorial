@@ -41,8 +41,6 @@ end
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
-# Use debugger
-# gem 'debugger', group: [:development, :test]
 group :development, :test do
   gem "rspec-rails", "~> 2.0"
   gem "capybara"
@@ -52,3 +50,5 @@ group :development, :test do
   gem "spork-rails", github: 'sporkrb/spork-rails'
   gem "guard-spork"
 end
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'bcrypt-ruby', '3.0.1'

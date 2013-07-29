@@ -1,0 +1,8 @@
+/* mixins and styles */
+.pretty {
+  color: #ff2222;
+}
+
+@mixin forgettable {
+  color: #22ff22;
+}
