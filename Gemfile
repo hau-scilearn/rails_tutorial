@@ -49,6 +49,8 @@ group :development, :test do
   # https://github.com/sporkrb/spork-rails
   gem "spork-rails", github: 'sporkrb/spork-rails'
   gem "guard-spork"
+  gem "factory_girl_rails"
+  gem "debugger"
 end
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'bcrypt-ruby', '3.0.1'

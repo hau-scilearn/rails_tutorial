@@ -55,10 +55,22 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
+    columnize (0.3.6)
+    debugger (1.6.1)
+      columnize (>= 0.3.1)
+      debugger-linecache (~> 1.2.0)
+      debugger-ruby_core_source (~> 1.2.3)
+    debugger-linecache (1.2.0)
+    debugger-ruby_core_source (1.2.3)
     diff-lcs (1.2.4)
     erubis (2.7.0)
     execjs (1.4.0)
       multi_json (~> 1.0)
+    factory_girl (4.2.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.2.1)
+      factory_girl (~> 4.2.0)
+      railties (>= 3.0.0)
     ffi (1.9.0)
     formatador (0.2.4)
     guard (1.8.1)
@@ -191,6 +203,8 @@ DEPENDENCIES
   bootstrap-sass (= 2.3.2.0)
   capybara
   coffee-rails (~> 4.0.0)
+  debugger
+  factory_girl_rails
   guard-rspec
   guard-spork
   jbuilder (~> 1.2)
